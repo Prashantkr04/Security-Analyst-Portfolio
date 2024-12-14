@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Choudhary Security Analyst Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/db8b0b24bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Tools</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> CYBERSECURITY ANALYST </p>
+                <h1>Hi, I'm <span>Prashant</span><br> Choudhary from Kolkata,<br>West Bengal</h1>
+            </div>
+        </div>
+    </div>
+<!-- -------------------About------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                    <p>I'm Prashant Choudhary from Kolkata,West Bengal and pursued my
+                        graduation B.Tech in Information Technology from Bengal Institute of Technology
+                        (MAKAUT) in 2024. I have 1+ years of experience in CyberSecurity. I have 
+                        worked on various tools using Nmap,Splunk and Wireshark. 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Security Analyst</span><br> Risk Management <br> Incident Response <br> Network Security <br> Malware Analysis <br> Vulnerability Assesment </li> 
+                            <li><span> Tools of CyberSecurity </span><br> Nmap <br> Metasploit <br> Splunk <br> Wireshark</li>
+                            <li><span> Programming Language  </span><br> JAVA <br> PYTHON(Basic) </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiance">
+                        <ul>
+                            <h3> Fresher </h3>
+                            <!-- <li><span>March 2023 - April 2023</span><br>Oasis Infobyte</li> -->
+                            <!-- <li><span>May 2023 - June 2023</span><br>Sync Intern<br></li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>2018<span></span><br>The Aryans School --   68%</li>
+                            <li>2020<span></span><br>Indian Public School --   60%</li>
+                            <li>2020 - 2024<span></span><br>Bengal Institute of Technology --   8.3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------services----------------- -->
+<div id="services">
+    <div class="container">
+        <h4 class="sub-title"> Projects</h4>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Network Traffic Analysis Using WIRESHARK </h2>
+                <p>Network traffic analysis using Wireshark involves capturing and 
+                   examining individual data packets traversing a network to gain insights 
+                   into communication patterns, identify potential security threats, 
+                   troubleshoot network issues, and optimize performance, all facilitated 
+                   by the powerful open-source packet analyzer, Wireshark, which allows users 
+                   to dissect the content of each packet, revealing details like 
+                   source/destination addresses, protocols used, and data transfer 
+                   timings; essentially providing a granular view of network activity 
+                   for comprehensive analysis.
+                </p>
+                <a href="https://github.com/0xrajneesh/Wireshark-Projects-for-beginners/blob/main/Project-1-Analyzing-HTTP-Traffic-with-Wireshark.md"> Read More </a>
+            </div>
+            <div>
+                <i class="fas fa-crop alt"></i>
+                <h2> Vulnerability Scanning with NMAP </h2>
+                <p>Vulnerability scanning with Nmap involves using the open-source network 
+                    scanning tool, Nmap, to proactively identify potential security weaknesses 
+                    in a network by probing systems for open ports, running services, and 
+                    checking against a database of known vulnerabilities using specialized 
+                    scripts, allowing network administrators to identify and address security 
+                    flaws before they can be exploited by attackers.
+                </p>
+                <a href="https://github.com/scipag/vulscan"> Read More </a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2> Log Analysis with SPLUNK </h2>
+                <p> Splunk can be used to search, filter, and analyze data from 
+                    a variety of sources, including logs, metrics, and events, 
+                    and to create real-time visualizations and reports. Splunk 
+                    log analysis is the process of using the Splunk platform to search, 
+                    filter, and analyze log data to gain insights and troubleshoot 
+                    problems.
+                </p>
+                <a href="https://github.com/JacYuan1/Analyze-Logs-Through-Splunk-Project"> Read More </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- -------------portfolio-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h4 class="sub-title"> Tools </h4>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.jpg">
+                <div class="layer">
+                    <h3> NMAP </h3>
+                    <p>Nmap is a network scanning tool, an open source Linux command-line 
+                        tool, used for network exploration, host discovery, and security 
+                        auditing. Gordon Lyon created it to help map an entire network 
+                        easily and find its open ports and services.
+                    </p>
+                    <a href="https://www.kali.org/tools/nmap/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.jpg">
+                <div class="layer">
+                    <h3> SPLUNK </h3>
+                    <p> Splunk is an open-source software tool that helps users collect,
+                        manage, and search large amounts of machine-generated data. 
+                        It can be used for a variety of purposes, including: business
+                        and web analytics, application management, compliance,
+                        and security.
+                    </p>
+                    <a href="https://docs.splunk.com/Documentation/Splunk/9.3.2/Installation/InstallonLinux"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.jpg">
+                <div class="layer">
+                    <h3> WIRESHARK </h3>
+                    <p>Wireshark is the most widely used network protocol analyzer tool,
+                        formerly known as Ethereal. It is open source and free.
+                        Wireshark is commonly used for network analysis and investigation.
+                    </p>
+                    <a href="https://www.kali.org/tools/wireshark/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.kali.org/docs/" class="btn">See More</a>
+    </div>
+</div>
+
+
+
+
+<!-- ---------------contact------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>prashantchoudhary21404@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9903777067</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/prashangoldi?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/Prashan10898010?t=2p3MnEy_quYNuhxZL8nksA&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/___heart_hacker_04?igsh=MTN3MGd2Z2pxdjN4cg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/prashant-choudhary-a952b520b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                <br></br>
+                </div>
+                <!-- <a href="" download class="btn btn2">Click to See My Resume</a> -->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit </button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <br></br>
+    <div class="copyright">
+        <p> Copyright © Prashant. </p>
+    </div>
+</div>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"> ↑ </button>
+
+<!-- Javascript Code -->
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzAGdSSeoG75F8or8P7IGAFVm-dRbWCsnOGogLzrrHQPIxIpc5aW8FhzRVN7tzc6DRR/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script>
+
+let mybutton = document.getElementById("myBtn");
+
+<!--  When the user scrolls down 20px from the top of the document, show the button -->
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// <!-- When the user clicks on the button, scroll to the top of the document -->
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; 
+}
+</script>
+
+</body>
+</html>
